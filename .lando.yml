@@ -1,0 +1,8 @@
+name: scrape-check
+recipe: wordpress
+services:
+  # Add in phpmyadmin
+  pma:
+    type: phpmyadmin
+    hosts:
+      - database

@@ -1,0 +1,624 @@
+20190108-201419: Retrieving Queue Data...
+20190108-201419: Processing Queue Data...
+20190108-201419: Initialising Browser...
+20190108-201419: Opening tab for: Conrad Manila
+20190108-201427: Preparting scraping...
+20190108-201427: Scraping Page 1...
+20190108-201427:   Click: All Languages
+20190108-201427:     Ok (method 1)
+20190108-201430:   Click: Expand Reviews
+20190108-201430:     Ok (method 1)
+20190108-201433:   Taking screenshot...
+20190108-201436:   Saving HTML...
+20190108-201436: Checking if Pagination available...
+20190108-201436: Navigating to next page...
+20190108-201436:   Click: Next Page
+20190108-201437: Scraping Page 2...
+20190108-201437:   Click: All Languages
+20190108-201437:     Ok (method 1)
+20190108-201440:   Click: Expand Reviews
+20190108-201440:     Ok (method 1)
+20190108-201443:   Taking screenshot...
+20190108-201446:   Saving HTML...
+20190108-201446: Navigating to next page...
+20190108-201446:   Click: Next Page
+20190108-201446: Scraping Page 3...
+20190108-201446:   Click: All Languages
+20190108-201446:     Ok (method 1)
+20190108-201449:   Click: Expand Reviews
+20190108-201449:     Ok (method 1)
+20190108-201452:   Taking screenshot...
+20190108-201455:   Saving HTML...
+20190108-201455: Navigating to next page...
+20190108-201455:   Click: Next Page
+20190108-201455: Scraping Page 4...
+20190108-201455:   Click: All Languages
+20190108-201455:     Ok (method 1)
+20190108-201458:   Click: Expand Reviews
+20190108-201458:     Ok (method 1)
+20190108-201501:   Taking screenshot...
+20190108-201504:   Saving HTML...
+20190108-201504: Navigating to next page...
+20190108-201504:   Click: Next Page
+20190108-201504: Scraping Page 5...
+20190108-201504:   Click: All Languages
+20190108-201504:     Ok (method 1)
+20190108-201507:   Click: Expand Reviews
+20190108-201507:     Ok (method 1)
+20190108-201510:   Taking screenshot...
+20190108-201513:   Saving HTML...
+20190108-201513: Reached Pagination Limit.
+20190108-201513: Closing Browser...
+20190108-201513: Pushing response to server...
+20190108-201515:   Completed push.
+20190108-201515: successful post result
+20190108-201515: { timeStarted: '20190108-201419',
+  scrape_results:
+   [ { file_screenshot: '437_p1.png',
+       file_html: '437_p1.html',
+       page_url:
+        'https://www.tripadvisor.com.ph/Hotel_Review-g298452-d8431164-Reviews-Conrad_Manila-Pasay_Metro_Manila_Luzon.html' },
+     { file_screenshot: '437_p2.png',
+       file_html: '437_p2.html',
+       page_url:
+        'https://www.tripadvisor.com.ph/Hotel_Review-g298452-d8431164-Reviews-or5-Conrad_Manila-Pasay_Metro_Manila_Luzon.html' },
+     { file_screenshot: '437_p3.png',
+       file_html: '437_p3.html',
+       page_url:
+        'https://www.tripadvisor.com.ph/Hotel_Review-g298452-d8431164-Reviews-or10-Conrad_Manila-Pasay_Metro_Manila_Luzon.html' },
+     { file_screenshot: '437_p4.png',
+       file_html: '437_p4.html',
+       page_url:
+        'https://www.tripadvisor.com.ph/Hotel_Review-g298452-d8431164-Reviews-or15-Conrad_Manila-Pasay_Metro_Manila_Luzon.html' },
+     { file_screenshot: '437_p5.png',
+       file_html: '437_p5.html',
+       page_url:
+        'https://www.tripadvisor.com.ph/Hotel_Review-g298452-d8431164-Reviews-or20-Conrad_Manila-Pasay_Metro_Manila_Luzon.html' } ],
+  queue_id: 438,
+  url_id: 437,
+  data_path: 'data/437/20190108-201419',
+  data_path_full:
+   '/Users/tom.s/Desktop/scrape-check/scrape-check/data/437/20190108-201419',
+  timeCompleted: '20190108-201513',
+  status: 'ok' }
+20190108-201515: Error with regex rule: /<span class="tipTitle">Room tip:</span>(.*)<div class="taLnk"/
+Error with regex rule: /<span class="tipTitle">Room tip:</span>(.*)<div class="taLnk"/
+Error with regex rule: /<span class="tipTitle">Room tip:</span>(.*)<div class="taLnk"/
+Error with regex rule: /<span class="tipTitle">Room tip:</span>(.*)<div class="taLnk"/
+Error with regex rule: /<span class="tipTitle">Room tip:</span>(.*)<div class="taLnk"/
+Error with regex rule: /<span class="tipTitle">Room tip:</span>(.*)<div class="taLnk"/
+Error with regex rule: /<span class="tipTitle">Room tip:</span>(.*)<div class="taLnk"/
+Error with regex rule: /<span class="tipTitle">Room tip:</span>(.*)<div class="taLnk"/
+Error with regex rule: /<span class="tipTitle">Room tip:</span>(.*)<div class="taLnk"/
+Error with regex rule: /<span class="tipTitle">Room tip:</span>(.*)<div class="taLnk"/
+Error with regex rule: /<span class="tipTitle">Room tip:</span>(.*)<div class="taLnk"/
+Error with regex rule: /<span class="tipTitle">Room tip:</span>(.*)<div class="taLnk"/
+Error with regex rule: /<span class="tipTitle">Room tip:</span>(.*)<div class="taLnk"/
+Error with regex rule: /<span class="tipTitle">Room tip:</span>(.*)<div class="taLnk"/
+Error with regex rule: /<span class="tipTitle">Room tip:</span>(.*)<div class="taLnk"/
+Array
+(
+    [data_extraction_firstpage] => Array
+        (
+            [page_meta_data] => {"@context":"http://schema.org","@type":"LodgingBusiness","name":"Conrad Manila","url":"/Hotel_Review-g298452-d8431164-Reviews-Conrad_Manila-Pasay_Metro_Manila_Luzon.html","image":"https://media-cdn.tripadvisor.com/media/photo-s/0a/d9/ae/57/conrad-manila-s-facade.jpg","priceRange":"₱8,174 - ₱17,500 (Based on Average Rates for a Standard Room)","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.5","reviewCount":"1567"},"address":{"@type":"PostalAddress","streetAddress":"Seaside Boulevard corner Coral Way Mall of Asia Complex","addressLocality":"Pasay","addressRegion":"","postalCode":"1300","addressCountry":{"@type":"Country","name":"Philippines"}}}
+            [rating_overall] => 4.5
+            [reviews_count] => 1,567
+            [reviews_count_friendly] => 
+            [reviews_rating_5] => 1,017
+            [reviews_rating_4] => 314
+            [reviews_rating_3] => 136
+            [reviews_rating_2] => 53
+            [reviews_rating_1] => 47
+            [establishment_name] => Conrad Manila, Pasay
+            [establishment_address_street] => Seaside Boulevard corner Coral Way
+            [establishment_address_locality] => Pasay, Luzon 1300, 
+            [establishment_address_country] => Philippines
+        )
+
+    [pages] => Array
+        (
+            [0] => Array
+                (
+                    [data_extraction] => Array
+                        (
+                            [reviews_container] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [review_title] => New Year's celebration
+                                            [review_content] => We stayed 3 nights to celebrate New Years. On new year's eve at C-Bar, high tables occupied the dance floor so we could not dance towards the midnight hour. Shocking. The band was great but playing for no one dancing. Many wanted to dance like us. When we asked to have the tables moved, the manager said to just dance around the tables. What! They were reserved for guests he said but it was past 11pm and no one was using the tables. We exploded at such horrible treatment. They just wanted the business and not the enjoyment of paying guests who paid reservation for the C-Lounge New Year's celebration like me. Finally close to midnight, they moved the empty high tables. We danced but too late. Left a horrible feeling that Conrad did not care. 
+                                            [review_date] => 7 January 2019
+                                            [review_date_visited] =>  December 2018
+                                            [author_username] => gowhenever
+                                            [author_location] => Philippine traveler
+                                            [review_rating] => 30
+                                            [review_helpfulness] => 
+                                            [author_avatar] => https://static.tacdn.com/img2/generic/site/loading_anim_gry_sml.gif
+                                            [author_contribution_count] => 9
+                                            [review_onmobile] => 0
+                                            [review_url] => /ShowUserReviews-g298452-d8431164-r644279466-Conrad_Manila-Pasay_Metro_Manila_Luzon.html
+                                            [review_id] => 644279466
+                                            [user_id] => C8CCD859A210BC16B944400B90A6D9B7
+                                            [review_trip_type] => Traveled with family
+                                            [review_rating_location] => 40
+                                            [review_rating_value] => 30
+                                            [review_rating_cleanliness] => 40
+                                            [review_rating_service] => 20
+                                            [review_rating_rooms] => 40
+                                            [review_rating_sleepquality] => 40
+                                            [review_partner_attribution] => 1
+                                            [review_response_exists] => 1
+                                            [review_response_username] => ConradManilaPH
+                                            [review_response_role] => Manager at Conrad Manila
+                                            [review_response_content] => Dear gowhenever,<br><br>Thank you once again for choosing to welcome the New Year with us at Conrad Manila. We are very appreciative of your kind feedback, and have noted that there was ample space for dancing and celebration at C Lounge, though we admittedly could have made it more spacious by moving a few cocktail tables beforehand (which our team immediately acted upon noticing the growing number of guests). We hope that this isolated incident has not greatly affected your overall opinion of our hotel and services, and that you consider staying with us again in the near future.<br><br>Sincerely,<br><br>Laurent Boisdron<br>General Manager<br>
+                                            [review_room_tip] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [review_title] => Fantastic hotel - Service, service, service!
+                                            [review_content] => Dear gowhenever,Thank you once again for choosing to welcome the New Year with us at Conrad Manila. We are very appreciative of your kind feedback, and have noted that there was ample space for dancing and celebration at C Lounge, though we admittedly could have made it more spacious by moving a few cocktail tables beforehand (which our team immediately acted upon noticing the growing number of guests). We hope that this isolated incident has not greatly affected your overall opinion of our hotel and services, and that you consider staying with us again in the near future.Sincerely,Laurent BoisdronGeneral Manager
+                                            [review_date] => 22 December 2018
+                                            [review_date_visited] =>  December 2018
+                                            [author_username] => mikebas
+                                            [author_location] => 
+                                            [review_rating] => 50
+                                            [review_helpfulness] => 4  
+                                            [author_avatar] => https://static.tacdn.com/img2/generic/site/loading_anim_gry_sml.gif
+                                            [author_contribution_count] => 59
+                                            [review_onmobile] => 0
+                                            [review_url] => /ShowUserReviews-g298452-d8431164-r640945541-Conrad_Manila-Pasay_Metro_Manila_Luzon.html
+                                            [review_id] => 640945541
+                                            [user_id] => 3991F01F85223764DEF8E8A5E5D4AB8F
+                                            [review_trip_type] => Traveled as a couple
+                                            [review_rating_location] => 
+                                            [review_rating_value] => 
+                                            [review_rating_cleanliness] => 
+                                            [review_rating_service] => 50
+                                            [review_rating_rooms] => 40
+                                            [review_rating_sleepquality] => 50
+                                            [review_partner_attribution] => 0
+                                            [review_response_exists] => 1
+                                            [review_response_username] => ConradManilaPH
+                                            [review_response_role] => Manager at Conrad Manila
+                                            [review_response_content] => Dear Mikebas,<br><br>Thank you for making Conrad Manila your hotel of choice during your most recent visit. We are delighted to learn that you enjoyed your stay, and found the assistance of our team members, Brian, MJ, Aldrich, Bo, to your kind preference. We hope to welcome you again soon.<br><br>Sincerely,<br>Laurent Boisdron<br>General Manager
+                                            [review_room_tip] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [review_title] => One of the Best
+                                            [review_content] => We needed a hotel base for our 2 week stay in Manila, for the silver jubilee celebration of our med school class this year. My wife and I chose Conrad Hotel based on my classmates recommendations and its proximity to SM Mall of Asia. This decision proved to be an excellent one. We stayed in a deluxe king room, upgraded to a bayview from a city view during our first week. The view of the sunset in Manila Bay is a sight to behold, both from our room to the tall glass lobby windows. Everyday. The room was kinda small but enough for our needs as a couple. There is the usual free bottles of water, toiletries (Shang Tang) and room coffee/tea (Nespresso). But what hooked us is the service we received from all the staff - from the check in to room service to daily cleaning. In the lobby, there are staff who are vigilantly on the watch for anybody who seems to need any help. Kudos to the concierge team - Brian, MJ, Aldrich, Bob. They made our stay and travel within the area as smooth and convenient as possible. They assisted us with arranging our Grab transport every time we needed it without batting an eyelid. (Something another hotel - I'm looking at you Okada - would not do for us consistently - one concierge told us "just download the app".) Everybody was just so friendly and I could sense sincerity in their welcome.We also tried the spa and it was definitely worth the price. The 2 hours I spent there was the most tranquil and relaxing part of the trip. Proximity to MOA is a plus obviously - there is a connecting bridge, thus you don't need to walk outside to get to MOA.This hotel may not be as expensive as the other ones around the area, but definitely gave us more bang for our buck.Anyway, I'm definitely using Conrad next time I come back to Manila.
+                                            [review_date] => 7 January 2019
+                                            [review_date_visited] =>  November 2018
+                                            [author_username] => amalia346
+                                            [author_location] => Las Vegas, Nevada
+                                            [review_rating] => 40
+                                            [review_helpfulness] => 1  
+                                            [author_avatar] => https://static.tacdn.com/img2/generic/site/loading_anim_gry_sml.gif
+                                            [author_contribution_count] => 17
+                                            [review_onmobile] => 0
+                                            [review_url] => /ShowUserReviews-g298452-d8431164-r644156692-Conrad_Manila-Pasay_Metro_Manila_Luzon.html
+                                            [review_id] => 644156692
+                                            [user_id] => EC9E114AE09B1031C6B460342FBB51CE
+                                            [review_trip_type] => Traveled with friends
+                                            [review_rating_location] => 50
+                                            [review_rating_value] => 50
+                                            [review_rating_cleanliness] => 
+                                            [review_rating_service] => 50
+                                            [review_rating_rooms] => 
+                                            [review_rating_sleepquality] => 
+                                            [review_partner_attribution] => 0
+                                            [review_response_exists] => 0
+                                            [review_response_username] => 
+                                            [review_response_role] => 
+                                            [review_response_content] => 
+                                            [review_room_tip] => 
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [review_title] => nice but a bit pricey..
+                                            [review_content] => Dear Mikebas,Thank you for making Conrad Manila your hotel of choice during your most recent visit. We are delighted to learn that you enjoyed your stay, and found the assistance of our team members, Brian, MJ, Aldrich, Bo, to your kind preference. We hope to welcome you again soon.Sincerely,Laurent BoisdronGeneral Manager
+                                            [review_date] => 7 January 2019
+                                            [review_date_visited] =>  January 2019
+                                            [author_username] => zeck e
+                                            [author_location] => 
+                                            [review_rating] => 40
+                                            [review_helpfulness] => 1  
+                                            [author_avatar] => https://static.tacdn.com/img2/generic/site/loading_anim_gry_sml.gif
+                                            [author_contribution_count] => 1
+                                            [review_onmobile] => 0
+                                            [review_url] => /ShowUserReviews-g298452-d8431164-r644149968-Conrad_Manila-Pasay_Metro_Manila_Luzon.html
+                                            [review_id] => 644149968
+                                            [user_id] => 4EACB703918D174E65D7FF3B46098670
+                                            [review_trip_type] => 
+                                            [review_rating_location] => 
+                                            [review_rating_value] => 
+                                            [review_rating_cleanliness] => 
+                                            [review_rating_service] => 
+                                            [review_rating_rooms] => 
+                                            [review_rating_sleepquality] => 
+                                            [review_partner_attribution] => 1
+                                            [review_response_exists] => 0
+                                            [review_response_username] => 
+                                            [review_response_role] => 
+                                            [review_response_content] => 
+                                            [review_room_tip] => 
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [review_title] => Conrad Hotel Review
+                                            [review_content] => Although their is a poor signage to look for the hotel I think it is worth staying in this hotel. Located in the 3rd floor and it has 2 entrances so you will get lost if you go to one entrance not directly to their floor. The room is huge with magnificent view, huge bathrooms and comfortable bed. The staff are very friendly as I get lost looking for their reception. Room smell nice, pleasant and breathtaking surrounding.
+                                            [review_date] => 6 January 2019
+                                            [review_date_visited] =>  January 2019
+                                            [author_username] => Xyzyl P
+                                            [author_location] => 
+                                            [review_rating] => 30
+                                            [review_helpfulness] => 1  
+                                            [author_avatar] => https://static.tacdn.com/img2/generic/site/loading_anim_gry_sml.gif
+                                            [author_contribution_count] => 3
+                                            [review_onmobile] => 0
+                                            [review_url] => /ShowUserReviews-g298452-d8431164-r644023232-Conrad_Manila-Pasay_Metro_Manila_Luzon.html
+                                            [review_id] => 644023232
+                                            [user_id] => 4DB93EA321D10E4675F2AD36D99EF2CD
+                                            [review_trip_type] => Traveled with friends
+                                            [review_rating_location] => 
+                                            [review_rating_value] => 
+                                            [review_rating_cleanliness] => 
+                                            [review_rating_service] => 
+                                            [review_rating_rooms] => 
+                                            [review_rating_sleepquality] => 
+                                            [review_partner_attribution] => 0
+                                            [review_response_exists] => 1
+                                            [review_response_username] => ConradManilaPH
+                                            [review_response_role] => Manager at Conrad Manila
+                                            [review_response_content] => Dear Xyzyl P,<br><br>Thank you for making Conrad Manila your hotel of choice during your recent trip. Kindly be assured that we have taken your comments into consideration, and will address it wherein applicable. Regarding access to different hotel floors, this is reserved to hotel guests via assigned keycards to ensure their safety and privacy. We hope that this helps to clarify and we look forward to your next visit.<br><br>Sincerely,<br>Laurent Boisdron<br>General Manager
+                                            [review_room_tip] => 
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [data_extraction] => Array
+                        (
+                            [reviews_container] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [review_title] => Best of the best!
+                                            [review_content] => The Conrad Hotel in Manila is by far one of the outstanding hotels in the world. The location, the facilities, the food, the rooms, are all exemplary. The very best part is the staff. The service in this hotel is the finest I have found anywhere in the world. My wife and I have traveled to over 75 countries, have taken 50 cruises, and this is the best. If I could give it 10 stars, I would do it gladly.
+                                            [review_date] => 6 January 2019
+                                            [review_date_visited] =>  January 2019
+                                            [author_username] => n4824k
+                                            [author_location] => Dallas, Texas
+                                            [review_rating] => 50
+                                            [review_helpfulness] => 1  
+                                            [author_avatar] => https://static.tacdn.com/img2/generic/site/loading_anim_gry_sml.gif
+                                            [author_contribution_count] => 6
+                                            [review_onmobile] => 0
+                                            [review_url] => /ShowUserReviews-g298452-d8431164-r643879559-Conrad_Manila-Pasay_Metro_Manila_Luzon.html
+                                            [review_id] => 643879559
+                                            [user_id] => 195FFEC4104A505063591DC5E88A5C1C
+                                            [review_trip_type] => Traveled with family
+                                            [review_rating_location] => 
+                                            [review_rating_value] => 
+                                            [review_rating_cleanliness] => 
+                                            [review_rating_service] => 50
+                                            [review_rating_rooms] => 50
+                                            [review_rating_sleepquality] => 50
+                                            [review_partner_attribution] => 0
+                                            [review_response_exists] => 1
+                                            [review_response_username] => ConradManilaPH
+                                            [review_response_role] => Manager at Conrad Manila
+                                            [review_response_content] => Dear n4824k,<br><br>We are elated to learn that you thoroughly enjoyed your most recent visit here at Conrad Manila. Kindly be assured that we have shared your feedback with our team, and that we look forward to your next visit.<br><br>Sincerely,<br>Laurent Boisdron<br>General Manager<br>
+                                            [review_room_tip] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [review_title] => Worth visiting again..
+                                            [review_content] => Dear n4824k,We are elated to learn that you thoroughly enjoyed your most recent visit here at Conrad Manila. Kindly be assured that we have shared your feedback with our team, and that we look forward to your next visit.Sincerely,Laurent BoisdronGeneral Manager
+                                            [review_date] => 5 January 2019
+                                            [review_date_visited] =>  January 2019
+                                            [author_username] => Mabelle N
+                                            [author_location] => Marikina, Philippines
+                                            [review_rating] => 50
+                                            [review_helpfulness] => 1  
+                                            [author_avatar] => https://static.tacdn.com/img2/generic/site/loading_anim_gry_sml.gif
+                                            [author_contribution_count] => 2
+                                            [review_onmobile] => 0
+                                            [review_url] => /ShowUserReviews-g298452-d8431164-r643799549-Conrad_Manila-Pasay_Metro_Manila_Luzon.html
+                                            [review_id] => 643799549
+                                            [user_id] => 4AA0C5A6476035B2119D8598A3B026AB
+                                            [review_trip_type] => Traveled with family
+                                            [review_rating_location] => 
+                                            [review_rating_value] => 
+                                            [review_rating_cleanliness] => 
+                                            [review_rating_service] => 
+                                            [review_rating_rooms] => 
+                                            [review_rating_sleepquality] => 
+                                            [review_partner_attribution] => 0
+                                            [review_response_exists] => 1
+                                            [review_response_username] => ConradManilaPH
+                                            [review_response_role] => Manager at Conrad Manila
+                                            [review_response_content] => Dear Mabelle,<br><br>We are delighted to receive your kind words and learn that you enjoyed your most recent visit. We look forward to welcoming you again soon!<br><br>Sincerely,<br>Laurent Boisdron<br>General Manager
+                                            [review_room_tip] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [review_title] => excellent staff performed a miracle
+                                            [review_content] => If there is a higher grade than 5-star, Conrad will be the first to get the 6-star grade! Everything is perfect! From the parking, reception, lobby, function, bar, restaurant, pool area down to the restrooms.Place is well-maintained. That is why the whole place smells very pleasant. Staffs are very accomodating and friendly. The place is huge but you will never get lost, even if it is your first time to visit and stay at the hotel. The view is amazing! The location is perfect because you have a 180-degrees view of Manila Bay from the lobby of the 3rd floor. :)
+                                            [review_date] => 5 January 2019
+                                            [review_date_visited] =>  January 2019
+                                            [author_username] => Delguapo
+                                            [author_location] => 
+                                            [review_rating] => 50
+                                            [review_helpfulness] => 1  
+                                            [author_avatar] => https://static.tacdn.com/img2/generic/site/loading_anim_gry_sml.gif
+                                            [author_contribution_count] => 1
+                                            [review_onmobile] => 0
+                                            [review_url] => /ShowUserReviews-g298452-d8431164-r643658739-Conrad_Manila-Pasay_Metro_Manila_Luzon.html
+                                            [review_id] => 643658739
+                                            [user_id] => 1D738FEE9974CDD90B95C955178947AC
+                                            [review_trip_type] => Traveled with friends
+                                            [review_rating_location] => 
+                                            [review_rating_value] => 
+                                            [review_rating_cleanliness] => 
+                                            [review_rating_service] => 
+                                            [review_rating_rooms] => 
+                                            [review_rating_sleepquality] => 
+                                            [review_partner_attribution] => 0
+                                            [review_response_exists] => 1
+                                            [review_response_username] => ConradManilaPH
+                                            [review_response_role] => Manager at Conrad Manila
+                                            [review_response_content] => Dear Delguapo,<br><br>Thank you for making Conrad Manila your hotel of choice during your most recent visit. We are delighted to learn that you enjoyed your stay, and found the assistance of our team members to your kind preference. We hope to welcome you again soon.<br><br>Sincerely,<br>Laurent Boisdron<br>General Manager<br>
+                                            [review_room_tip] => 
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [review_title] => 最高のサービス
+                                            [review_content] => Dear Mabelle,We are delighted to receive your kind words and learn that you enjoyed your most recent visit. We look forward to welcoming you again soon!Sincerely,Laurent BoisdronGeneral Manager
+                                            [review_date] => 4 January 2019
+                                            [review_date_visited] =>  January 2019
+                                            [author_username] => Freedom809953
+                                            [author_location] => 
+                                            [review_rating] => 50
+                                            [review_helpfulness] => 
+                                            [author_avatar] => https://static.tacdn.com/img2/generic/site/loading_anim_gry_sml.gif
+                                            [author_contribution_count] => 2
+                                            [review_onmobile] => 0
+                                            [review_url] => /ShowUserReviews-g298452-d8431164-r643512110-Conrad_Manila-Pasay_Metro_Manila_Luzon.html
+                                            [review_id] => 643512110
+                                            [user_id] => 0295E5ADA80A35439914F74BDE41444E
+                                            [review_trip_type] => Traveled as a couple
+                                            [review_rating_location] => 
+                                            [review_rating_value] => 
+                                            [review_rating_cleanliness] => 
+                                            [review_rating_service] => 
+                                            [review_rating_rooms] => 
+                                            [review_rating_sleepquality] => 
+                                            [review_partner_attribution] => 0
+                                            [review_response_exists] => 1
+                                            [review_response_username] => ConradManilaPH
+                                            [review_response_role] => Manager at Conrad Manila
+                                            [review_response_content] => Dear Freedom809953,<br><br>We are elated to learn that you found your most recent visit to Conrad Manila most enjoyable. It is truly heartwarming to receive such kind words, and that you found Juancho and our other team members' heartfelt service to be of assistance. We hope to welcome you again soon.<br><br>Sincerely,<br>Laurent Boisdron<br>General Manager<br>
+                                            [review_room_tip] => 
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [review_title] => Great Location
+                                            [review_content] => TLDR: strings were pulled to accommodate a lofty request. Hat's off to this crew.We had a surprise last-minute need to get a room in Manila. We booked the room at 1:00 am but needed to be in the room by 12:00 (the same day) to shower and clean for a wedding. The problem is: our room was still occupied and needed to be cleaned. We arrived at 7:00am, and was informed that as soon as the occupants leave they will get all hands on deck to prepare the room. (In the meantime, allowed us to stay in an amazing executive waiting room ;) ;) By the time the previous guest left, the room was ready by 9:30 AM, clean as a whistle. Checked in 6 hrs before standard check-in time.
+                                            [review_date] => 4 January 2019
+                                            [review_date_visited] =>  December 2018
+                                            [author_username] => Cynthia B
+                                            [author_location] => Columbus, Ohio
+                                            [review_rating] => 50
+                                            [review_helpfulness] => 1  
+                                            [author_avatar] => https://static.tacdn.com/img2/generic/site/loading_anim_gry_sml.gif
+                                            [author_contribution_count] => 23
+                                            [review_onmobile] => 0
+                                            [review_url] => /members-citypage/R4530ODcynthiab/g298452
+                                            [review_id] => 643415674
+                                            [user_id] => D9D9D44052F0BBC87783557D05FC64A8
+                                            [review_trip_type] => Traveled with family
+                                            [review_rating_location] => 50
+                                            [review_rating_value] => 50
+                                            [review_rating_cleanliness] => 
+                                            [review_rating_service] => 50
+                                            [review_rating_rooms] => 
+                                            [review_rating_sleepquality] => 
+                                            [review_partner_attribution] => 0
+                                            [review_response_exists] => 1
+                                            [review_response_username] => ConradManilaPH
+                                            [review_response_role] => Manager at Conrad Manila
+                                            [review_response_content] => Dear Cynthia,<br><br>We are elated to receive your kind words and learn that you enjoyed your most recent stay and found our proximity to the NAIA, S Maison, Mall of Asia and SMX to your kind preference. We look forward to welcoming you again soon!<br><br>Sincerely,<br>Laurent Boisdron<br>General Manager
+                                            [review_room_tip] => 
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [data_extraction] => Array
+                        (
+                            [reviews_container] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [review_title] => New Year's Eve in Conrad
+                                            [review_content] => My husband and I just arrived from a separate business trip today. Checking in to Conrad is part of my surprise to my husband and kids to celebrate New Year's Eve since my husband & I were not here last Christmas.Although, we weren't able to get the connecting room, all of my other request was granted and given. Which helped me a lot to keep this as a surprise for my family.Conrad had been very accommodating and helpful to my needs. I love our room which has the perfect view of the bay and the fireworks display that we didn't have the need to go down to the lobby to watch the show.Thank you, Conrad for giving my kids another wonderful experience and memories this New Year's.
+                                            [review_date] => 31 December 2018
+                                            [review_date_visited] =>  December 2018
+                                            [author_username] => Gigi Q
+                                            [author_location] => 
+                                            [review_rating] => 50
+                                            [review_helpfulness] => 2  
+                                            [author_avatar] => https://static.tacdn.com/img2/generic/site/loading_anim_gry_sml.gif
+                                            [author_contribution_count] => 1
+                                            [review_onmobile] => 0
+                                            [review_url] => /ShowUserReviews-g298452-d8431164-r642646045-Conrad_Manila-Pasay_Metro_Manila_Luzon.html
+                                            [review_id] => 642646045
+                                            [user_id] => 0CD48ABDD696FC340D687CCD4C3D0D30
+                                            [review_trip_type] => Traveled with family
+                                            [review_rating_location] => 
+                                            [review_rating_value] => 
+                                            [review_rating_cleanliness] => 
+                                            [review_rating_service] => 
+                                            [review_rating_rooms] => 
+                                            [review_rating_sleepquality] => 
+                                            [review_partner_attribution] => 0
+                                            [review_response_exists] => 1
+                                            [review_response_username] => ConradManilaPH
+                                            [review_response_role] => Manager at Conrad Manila
+                                            [review_response_content] => Dear Gigi,<br><br>Happy New Year! Thank you for taking the time to provide us with a detailed review of your most recent visit. We are delighted to learn that you thoroughly enjoyed your stay, and that you found our services and amenities to your kind preference. Kindly be assured that we have shared your kind words with our team, to help inspire us and improve where we can. We hope to welcome you again soon.<br><br>Sincerely,<br><br>Laurent Boisdron<br>General Manager
+                                            [review_room_tip] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [review_title] => Very nice staff made up for incident
+                                            [review_content] => Dear Gigi,Happy New Year! Thank you for taking the time to provide us with a detailed review of your most recent visit. We are delighted to learn that you thoroughly enjoyed your stay, and that you found our services and amenities to your kind preference. Kindly be assured that we have shared your kind words with our team, to help inspire us and improve where we can. We hope to welcome you again soon.Sincerely,Laurent BoisdronGeneral Manager
+                                            [review_date] => 31 December 2018
+                                            [review_date_visited] =>  December 2018
+                                            [author_username] => Kinzers
+                                            [author_location] => Arlington, Virginia
+                                            [review_rating] => 50
+                                            [review_helpfulness] => 2  
+                                            [author_avatar] => https://static.tacdn.com/img2/generic/site/loading_anim_gry_sml.gif
+                                            [author_contribution_count] => 70
+                                            [review_onmobile] => 0
+                                            [review_url] => /ShowUserReviews-g298452-d8431164-r642538832-Conrad_Manila-Pasay_Metro_Manila_Luzon.html
+                                            [review_id] => 642538832
+                                            [user_id] => 064BE6624BA6247AAB2464E2D03FD612
+                                            [review_trip_type] => Traveled as a couple
+                                            [review_rating_location] => 
+                                            [review_rating_value] => 
+                                            [review_rating_cleanliness] => 
+                                            [review_rating_service] => 
+                                            [review_rating_rooms] => 
+                                            [review_rating_sleepquality] => 
+                                            [review_partner_attribution] => 0
+                                            [review_response_exists] => 1
+                                            [review_response_username] => ConradManilaPH
+                                            [review_response_role] => Manager at Conrad Manila
+                                            [review_response_content] => Dear Kinzers,<br><br>Thank you for making Conrad Manila your hotel of choice during your recent trip. We hope that the heartfelt efforts of our team members, namely Elmer, Alice and Cecile, were able to make your stay an inspired one in spite of the unfortunate incident on your first night. Kindly be assured that we have taken note of this, and have made arrangements to ensure that it does not happen again. We hope to welcome you again soon.<br><br>Sincerely,<br>Laurent Boisdron<br>General Manager<br>
+                                            [review_room_tip] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [review_title] => Family time
+                                            [review_content] => We stayed 3 nights at this lovely hotel. Our first night we were awakened due to awful painting chemicals weeping up from the floor under us. It was really hard to breathe and we called the front desk. They offered us a separate sleeping room but we didnt want to leave our stuff. They brought in a ventilation fan which helped. The next morning we were greeted by manager Elmer, who wanted to do anything to make the situation better. He was very nice and upgraded us to a beautiful suite! It was really nice! We enjoyed cocktail hour nightly in the executive lounge and even had a wonderful dinner ( compd) in the main restaurant. Alice and Cecile, executive lounge staff were so kind and helpful. Everyone in the hotel was friendly and greeted us every time they saw us. They definitely did a wonderful job making up for the first night. We enjoyed our stay overall.
+                                            [review_date] => 30 December 2018
+                                            [review_date_visited] =>  December 2018
+                                            [author_username] => princesserikajoym
+                                            [author_location] => Batangas City, Philippines
+                                            [review_rating] => 50
+                                            [review_helpfulness] => 2  
+                                            [author_avatar] => https://static.tacdn.com/img2/generic/site/loading_anim_gry_sml.gif
+                                            [author_contribution_count] => 4
+                                            [review_onmobile] => 0
+                                            [review_url] => /ShowUserReviews-g298452-d8431164-r642371956-Conrad_Manila-Pasay_Metro_Manila_Luzon.html
+                                            [review_id] => 642371956
+                                            [user_id] => 3C56FF1FEB81FF3ED646870538AF05E5
+                                            [review_trip_type] => 
+                                            [review_rating_location] => 
+                                            [review_rating_value] => 
+                                            [review_rating_cleanliness] => 
+                                            [review_rating_service] => 
+                                            [review_rating_rooms] => 
+                                            [review_rating_sleepquality] => 
+                                            [review_partner_attribution] => 1
+                                            [review_response_exists] => 1
+                                            [review_response_username] => 
+                                            [review_response_role] => 
+                                            [review_response_content] => Dear Princesserikajoym,We are delighted to receive your kind words and learn that you enjoyed your most recent visit. We look forward to welcoming you again soon!Sincerely,Laurent BoisdronGeneral Manager
+                                            [review_room_tip] => 
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [review_title] => Not a typical Conrad property
+                                            [review_content] => Dear Kinzers,Thank you for making Conrad Manila your hotel of choice during your recent trip. We hope that the heartfelt efforts of our team members, namely Elmer, Alice and Cecile, were able to make your stay an inspired one in spite of the unfortunate incident on your first night. Kindly be assured that we have taken note of this, and have made arrangements to ensure that it does not happen again. We hope to welcome you again soon.Sincerely,Laurent BoisdronGeneral Manager
+                                            [review_date] => 30 December 2018
+                                            [review_date_visited] =>  December 2018
+                                            [author_username] => Michelle A
+                                            [author_location] => Pasay, Philippines
+                                            [review_rating] => 20
+                                            [review_helpfulness] => 
+                                            [author_avatar] => https://static.tacdn.com/img2/generic/site/loading_anim_gry_sml.gif
+                                            [author_contribution_count] => 1
+                                            [review_onmobile] => 0
+                                            [review_url] => /ShowUserReviews-g298452-d8431164-r642352196-Conrad_Manila-Pasay_Metro_Manila_Luzon.html
+                                            [review_id] => 642352196
+                                            [user_id] => 99D0C4B1BB703815386CEFCDA7A0D97C
+                                            [review_trip_type] => Traveled with family
+                                            [review_rating_location] => 50
+                                            [review_rating_value] => 20
+                                            [review_rating_cleanliness] => 50
+                                            [review_rating_service] => 30
+                                            [review_rating_rooms] => 30
+                                            [review_rating_sleepquality] => 50
+                                            [review_partner_attribution] => 1
+                                            [review_response_exists] => 1
+                                            [review_response_username] => ConradManilaPH
+                                            [review_response_role] => Manager at Conrad Manila
+                                            [review_response_content] => Dear Michelle,<br><br>Thank you for making Conrad Manila your hotel of choice for your most recent visit. Kindly be assured that we take your comments very seriously, and are committed to ensuring that we provide our guests with inspired experiences. We hope you consider staying with us again soon.<br><br>Sincerely,<br>Laurent Boisdron<br>General Manager
+                                            [review_room_tip] => 
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [review_title] => Christmas Holidays 2018
+                                            [review_content] => The rooms were spacious and very clean. Staff were friendly and really accomodating. We had a relaxing stay. The pool was also great and it was reassuring to see a lifeguard there. The location is also a big plus.
+                                            [review_date] => 30 December 2018
+                                            [review_date_visited] =>  December 2018
+                                            [author_username] => Bondette
+                                            [author_location] => New York City, New York
+                                            [review_rating] => 50
+                                            [review_helpfulness] => 3  
+                                            [author_avatar] => https://static.tacdn.com/img2/generic/site/loading_anim_gry_sml.gif
+                                            [author_contribution_count] => 1
+                                            [review_onmobile] => 0
+                                            [review_url] => /ShowUserReviews-g298452-d8431164-r642303531-Conrad_Manila-Pasay_Metro_Manila_Luzon.html
+                                            [review_id] => 642303531
+                                            [user_id] => 253B943AA94D2FA9474BF73782CD8675
+                                            [review_trip_type] => Traveled with family
+                                            [review_rating_location] => 
+                                            [review_rating_value] => 
+                                            [review_rating_cleanliness] => 
+                                            [review_rating_service] => 
+                                            [review_rating_rooms] => 
+                                            [review_rating_sleepquality] => 
+                                            [review_partner_attribution] => 0
+                                            [review_response_exists] => 1
+                                            [review_response_username] => ConradManilaPH
+                                            [review_response_role] => Manager at Conrad Manila
+                                            [review_response_content] => Dear Bondette,<br><br>Thank you for making Conrad Manila your hotel of choice during your most recent visit. We are delighted to learn that you enjoyed your stay, and found the assistance of our team members, namely Aron, Nicole, Karina, Rein, Nelson, and MJ, to your kind preference. We hope to welcome you again soon.<br><br>Sincerely,<br>Laurent Boisdron<br>General Manager
+                                            [review_room_tip] => 
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+

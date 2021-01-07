@@ -1,0 +1,14 @@
+{
+    "name": "scrape-check",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "node scrape.js"
+    },
+    "author": "Tom Storms <tom@islandmeetscity.com>",
+    "license": "ISC",
+    "dependencies": {
+        "puppeteer": "^1.10.0",
+        "request": "^2.88.0"
+    }
+}
